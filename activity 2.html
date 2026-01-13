@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My page</title>
+    </head>
+    <body>
+        <h2>Join() and Pop()</h2>
+        <p id="myjoin"></p>
+        <p id="firstpop"></p>
+        <p id="secondpop"></p>
+        <script>
+            var fruits = ["Banana", "apple", "orange", "mango", "kiwi", "cherry"];
+            document.getElementById("myjoin").innerHTML = fruits.join(" & ");
+            document.getElementById("firstpop").innerHTML = fruits.pop();
+            document.getElementById("secondpop").innerHTML = fruits.pop();
+            document.write(fruits);
+        </script>
+    </body>
+</html>
